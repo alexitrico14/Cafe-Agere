@@ -1,0 +1,49 @@
+.card-float {
+    position: relative;
+    display: flex;
+    max-width: 550px;
+    height: 100px;
+    background-color: $color-white;
+    margin: $margin-md;
+    bottom: 100px;
+}
+
+.card-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 27%;
+    text-align: center;
+}
+
+.card-arrow {
+    display: flex;
+    width: 20%;
+    background-color: $color-yellow;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: 5px;
+}
+
+.card-number__title {
+    font-size: $font-size-xl;
+}
+
+.card-number__text {
+    font-size: $font-size-sm;
+}
+
+.arrow {
+    font-size: $font-size-xxl !important;
+    background-color: $color-orange;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: translate(-10px, -10px);
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

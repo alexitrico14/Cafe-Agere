@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    padding: 32px;
+}
+
+.main__image-container {
+    width: 60%;
+    height: 100%;
+}
+
+.main__image {
+    width: 100%;
+}
+
+.main__content {
+    width: 20%;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__title {
+    font-size: $font-size-title;
+    margin: 0;
+    text-align: left;
+}
+
+.main__subtitle {
+    font-size: $font-size-subtitle;
+    margin: 8px 0 0 0;
+    text-align: left;
+}

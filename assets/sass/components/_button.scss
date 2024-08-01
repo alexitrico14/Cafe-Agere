@@ -1,0 +1,32 @@
+/* Botones */
+.button {
+
+    padding: $padding-sm;
+    font-size: $font-size-base;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border: 2px solid;
+}
+
+.button--primary {
+    background-color: #fff;
+    border-color: $color-gray;
+    color: $color-gray;
+}
+
+.button--primary:hover {
+    color: $color-black;
+    border-color: $color-black;
+}
+
+.button--secondary {
+    background-color: $color-green;
+    border-color: $color-green;
+    color: $color-white;
+}
+
+.button--secondary:hover {
+    border-color: $color-light-green;
+    background-color: $color-light-green;
+    color: #616A67;
+}
